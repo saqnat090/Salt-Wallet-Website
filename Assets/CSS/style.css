@@ -29,7 +29,7 @@ a{
 }
 .header-list a:hover{
     color: #0094ff;
-    transition: all 0.4s ease-in;
+    transition: all 0.5s ease-in;
 }
 .header-list{
     display: flex;
@@ -191,6 +191,14 @@ section .banner{
     padding-top: 15px;
 }
 /* browser section closed */
+/* coin section started */
+footer{
+    padding-bottom: 37px;
+    padding-top: 20px;
+}
+footer a:hover{
+    transition: all 0.5s ease-in;
+}
 .coin-content{
     line-height: 28px;
 }
@@ -200,44 +208,37 @@ section .banner{
 .coin-content h2{
     padding-bottom: 25px;
 }
-
-.faq-list .accordion-button{
-    background-color: transparent;
-    box-shadow: none;
-    color: #fff;
+/* coin section closed */
+/* footer section started */
+.footer-h{
+    color: #0094FF;
+    margin-bottom: 50px;
+    font-size: 30px;
 }
-.faq-list .accordion-item{
-    background-color: transparent;
-    border: none;
-    border-bottom: 2px solid #0094FF;
+.footer-nav li a{
+    margin-bottom: 20px;
+    display: block;
 }
-.faq-list .accordion-button::after{
-    content: '+';
-    background-image: none;
+.footer-nav li a:hover{
+    transition: all 0.5s ease-in;
 }
-.faq-list .accordion-button:not(.collapsed)::after{
-    content: '-';
+.footer-box-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
-.faq-list .accordion-item:last-of-type{
-    border-radius: 0;
+.bottom-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
 }
-.faq-list .accordion-button{
-    background-color: transparent;
-    box-shadow: none;
-    color: #fff;
+.footer-para{
+    font-size: 13px;
+    margin: 0 0 0 25px;
 }
-.faq-list .accordion-item{
-    background-color: transparent;
-    border: none;
-    border-bottom: 2px solid #0094FF;
+.footer-list li{
+    display: inline-block;
+    margin-left: 13px;
 }
-.faq-list .accordion-button::after{
-    content: '+';
-    background-image: none;
-}
-.faq-list .accordion-button:not(.collapsed)::after{
-    content: '-';
-}
-.faq-list .accordion-item:last-of-type{
-    border-radius: 0;
-}
+/* footer section closed */
